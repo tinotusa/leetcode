@@ -13,7 +13,6 @@ public class ListNode {
 
 func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
     if head == nil { return head }
-    
     var prev: ListNode? = ListNode()
     prev?.next = head
     var current = prev

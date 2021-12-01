@@ -16,4 +16,4 @@ func convertToTitle(_ columnNumber: Int) -> String {
     return title
 }
 
-print(convertToTitle(0b0001))
+print(convertToTitle())

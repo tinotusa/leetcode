@@ -20,6 +20,7 @@ func addStrings(_ num1: String, _ num2: String) -> String {
     var num1Index = num1.count - 1
     var num2Index = num2.count - 1
     var carry = 0
+
     while num1Index >= 0 || num2Index >= 0 || carry > 0 {
         var sum = 0
         if num1Index >= 0 {
@@ -35,6 +36,7 @@ func addStrings(_ num1: String, _ num2: String) -> String {
         sum %= 10
         result = "\(sum)\(result)"
     }
+
     return result
 }
 
